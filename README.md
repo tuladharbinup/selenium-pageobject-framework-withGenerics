@@ -13,7 +13,7 @@ page object with generics and some other good practices
 <h2 style="color: #2e6c80;">Some best practices followed are:</h2>
 <li >Avoiding assertions in the page object</li>
 <li >Returning page object while navigating for the next page</li>
-<li>Using Generics to to create page model objects by class name rather than having to “new them up”. This practice keeps initialization code in one place so that it easier to extend/modify.</li>
+<li>Using Generics to create page model objects by class name rather than having to “new them up”. This practice keeps initialization code in one place so that it easier to extend/modify.</li>
 <li >Returning page object while navigating for the next page</li>
 <li >Ensuring that a page or element is ready before interacting with it</li>
 <li ><b> "If you have WebDriver APIs in your test methods, You're Doing It Wrong"</b></li>
