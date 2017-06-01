@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25522" started-at="2017-06-01T21:56:06Z" finished-at="2017-06-01T21:56:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25522" started-at="2017-06-01T21:56:06Z" finished-at="2017-06-01T21:56:31Z">
+      <class name="com.binupjewelry.tests.SearchAndBuyRingTest">
+        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:com.binupjewelry.tests.SearchAndBuyRingTest@66a3ffec]" name="setupTestSuite" is-config="true" duration-ms="9826" started-at="2017-06-01T14:55:56Z" finished-at="2017-06-01T14:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestSuite -->
+        <test-method status="PASS" signature="searchAndBuyRing()[pri:0, instance:com.binupjewelry.tests.SearchAndBuyRingTest@66a3ffec]" name="searchAndBuyRing" duration-ms="25504" started-at="2017-06-01T14:56:06Z" finished-at="2017-06-01T14:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndBuyRing -->
+        <test-method status="PASS" signature="TearDownTestSuite()[pri:0, instance:com.binupjewelry.tests.SearchAndBuyRingTest@66a3ffec]" name="TearDownTestSuite" is-config="true" duration-ms="585" started-at="2017-06-01T14:56:31Z" finished-at="2017-06-01T14:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTestSuite -->
+      </class> <!-- com.binupjewelry.tests.SearchAndBuyRingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
