@@ -10,12 +10,13 @@ page object with generics and some other good practices
 <p>by opening configuration file located at&nbsp;/src/com/binupjewelry/config/GlobalConfig.properties</p>
 <p>If needed, update &lt;dependency&gt; in pom.xml</p>
 <p><span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;">Run</span>&nbsp;sample test case "<span style="color: #ff0000;"><strong>SearchAndBuyRingTest.java</strong></span>" as TestNG test.</p>
-<h2 style="color: #2e6c80;">Some useful features:</h2>
-<ol style="list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;">
-<li style="clear: both;"><img style="float: left;" src="https://html-online.com/img/01-interactive-connection.png" alt="interactive connection" width="45" />Reading Test data from Excel</li>
-<li style="clear: both;"><img style="float: left;" src="https://html-online.com/img/02-html-clean.png" alt="html cleaner" width="45" />Taking snapshot</li>
-<li style="clear: both;"><img style="float: left;" src="https://html-online.com/img/03-docs-to-html.png" alt="Word to html" width="45" />Global Configuration</li>
-<li style="clear: both;"><img style="float: left;" src="https://html-online.com/img/05-gibberish.png" alt="gibberish" width="45" />Steping stone to create a bigger enterprise level framework</li></ol>
+<h2 style="color: #2e6c80;">Some best practices followed are:</h2>
+<li >Avoiding assertions in the page object</li>
+<li >Returning page object while navigating for the next page</li>
+<li>Using Generics to to create page model objects by class name rather than having to “new them up”. This practice keeps initialization code in one place so that it easier to extend/modify.</li>
+<li >Returning page object while navigating for the next page</li>
+<li >Ensuring that a page or element is ready before interacting with it</li>
+<li ><b> "If you have WebDriver APIs in your test methods, You're Doing It Wrong"</b></li>
 
 <h4>Demo Site:&nbsp;https://binup-jewelry.offersupermarket.com/</h4>
 
